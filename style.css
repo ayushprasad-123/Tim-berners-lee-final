@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background: rgb(0, 146, 255);
+    background: radial-gradient(circle, rgba(0, 146, 255, 0.8211659663865546) 0%, rgba(0, 255, 89, 0.6923144257703081) 100%);
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1 {
+    text-shadow: 2px 2px #757575;
+    font-size: 20px;
+}
+
+.navigation {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+a:link,a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.links:hover {
+    background-color: brown;
+}
